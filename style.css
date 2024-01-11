@@ -1,5 +1,7 @@
 body{
     background: #808080;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
 }
 
 .container{
@@ -12,9 +14,15 @@ body{
     background: #fff;
     border-radius: 10px;
     align-items: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-.qrform{
+.qrForm{
     margin: 10px;
+}
+
+#ket{
+    visibility: hidden;
 }
